@@ -38,3 +38,9 @@ Se ha desarrollado una CLI que utiliza el [SDK de Amazon Web Services para Node]
 A cada reconocimiento se le asigna una **Puntuación de Confianza**
 
 > La puntuación de confianza es un valor entero que oscila entre 0 y 100 que indica con qué probabilidad una característica ha sido detectada.
+
+La documentación completa del uso de AWS Rekognition la pueden encontrar en la siguiente [URL](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Rekognition.html)
+
+## Análisis de las imágenes
+
+La aplicación lee el archivo presente en la variable ```file_name``` del archivo ```app.js```. Los archivos de imágenes deben poseer la extensión JPG o PNG. El archivo indicado para enviar a reconocimiento a la API de AWS Rekognition es transformado en un Buffer.

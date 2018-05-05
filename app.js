@@ -11,7 +11,8 @@ const rekognition = new AWS.Rekognition({
 });
 
 //Lee la imagen, la convierte a Buffer y prepara el objeto
-const bitmap = fs.readFileSync('./input/imagen1.jpg');
+const file_name = 'imagen1.jpg';
+const bitmap = fs.readFileSync(`./input/${file_name}`);
 let image = {
   Image: {
     Bytes: new Buffer(bitmap)
