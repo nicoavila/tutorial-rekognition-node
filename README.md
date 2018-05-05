@@ -43,4 +43,12 @@ La documentación completa del uso de AWS Rekognition la pueden encontrar en la 
 
 ## Análisis de las imágenes
 
-La aplicación lee el archivo presente en la variable ```file_name``` del archivo ```app.js```. Los archivos de imágenes deben poseer la extensión JPG o PNG. El archivo indicado para enviar a reconocimiento a la API de AWS Rekognition es transformado en un Buffer.
+La aplicación lee el archivo declarado en la variable ```file_name```. Los archivos de imágenes deben poseer la extensión JPG o PNG. El archivo indicado para enviar a reconocimiento a la API de AWS Rekognition es transformado en un Buffer.
+
+## Sobre las imágenes utilizadas en este tutorial
+
+Las imágenes utilizadas en este tutorial corresponden a 3 imágenes utilizadas en el estudio [Self-report captures 27 distinct categories of emotion bridged by continuous gradients](http://www.pnas.org/content/early/2017/08/30/1702247114).
+
+## Output de ejemplo
+
+```La emoción predominante en la imágen es ALEGRÍA con un grado de seguridad de 98.88406372070312```
